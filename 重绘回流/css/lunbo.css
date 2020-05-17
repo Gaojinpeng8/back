@@ -1,0 +1,77 @@
+#container {
+    position: relative;
+    width: 80vw;
+    height: 30vw;
+    overflow: hidden;
+}
+#banner {
+    position: absolute;
+}
+#banner li{
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#banner img {
+    display: block;
+}
+#buttons {
+    position: absolute;
+    height: 2vw;
+    width: 20vw;
+    left: 32vw;
+    bottom: 1vw;
+    z-index: 100;
+    float: left;
+}
+#buttons span {
+    cursor: pointer;
+    float: left;
+    border-radius: 50%;
+    background-color: #333;
+    margin-right: 2vw;
+    width: 2vw;
+    height: 2vw;
+}
+#buttons .on {
+    background-color: orange;
+}
+.arrow {
+    cursor: pointer;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3vw;
+    z-index: 200;
+    top: 13vw;
+    background: RGBA(0,0,0,.3);
+    color: #fff;
+}
+#prev {
+    left: 1vw;
+}
+#next {
+    right: 1vw;
+}
+#banner img {
+    height: 30vw;
+    width: 80vw;
+}
+
+#back-top {
+    width: 4vw;
+    height: 4vw;
+    font-size: large;
+    position: fixed;
+    right: 0;
+    bottom: 3vw;
+    background: RGBA(255,192,103,.3);
+    /* background-color: pink; */
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
